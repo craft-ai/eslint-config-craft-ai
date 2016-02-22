@@ -10,6 +10,10 @@
     "es6"
   ],
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
   "author": {
     "name": "craft ai",
     "email": "contact@craft.ai",
@@ -21,6 +25,7 @@
   },
   "homepage": "https://github.com/craft-ai/eslint-config-craft-ai",
   "devDependencies": {
-    "eslint": "2.2.0"
+    "eslint": "2.2.0",
+    "eslint-config-craft-ai": "*"
   }
 }

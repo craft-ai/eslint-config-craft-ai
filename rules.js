@@ -1,35 +1,35 @@
 module.exports = {
-  "rules": {
-    "indent": [
+  'rules': {
+    'indent': [
       2,
       2,
-      {"SwitchCase": 1}
+      {'SwitchCase': 1}
     ],
-    "quotes": [
+    'quotes': [
       2,
-      "single"
+      'single'
     ],
-    "semi": [
+    'semi': [
       2,
-      "always"
+      'always'
     ],
-    "no-console": [
+    'no-console': [
       0
     ],
-    "no-unused-vars": [
+    'no-unused-vars': [
       1,
       {
-        "args": "none"
+        args: 'none'
       }
     ],
-    "default-case": 2
+    'default-case': 2
   },
-  "ecmaFeatures": {
-    "modules": true
+  'ecmaFeatures': {
+    'modules': true
   },
-  "env": {
-    "es6": true,
-    "node": true,
-    "browser": true
+  'env': {
+    'es6': true,
+    'node': true,
+    'browser': true
   }
 };
