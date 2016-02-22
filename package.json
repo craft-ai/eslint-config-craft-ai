@@ -27,5 +27,8 @@
   "devDependencies": {
     "eslint": "2.2.0",
     "eslint-config-craft-ai": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "4.0.0"
   }
 }
