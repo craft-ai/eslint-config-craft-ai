@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'rules'
+    'craft-ai/rules'
   ]
 };
