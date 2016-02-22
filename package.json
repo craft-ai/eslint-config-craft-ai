@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-craft-ai",
+  "version": "0.0.1",
+  "description": "craft ai's ESLint config.",
+  "repository": "craft-ai/eslint-config-craft-ai",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "es5",
+    "es6"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "craft ai",
+    "email": "contact@craft.ai",
+    "url": "http://craft.ai/"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/craft-ai/eslint-config-craft-ai"
+  },
+  "homepage": "https://github.com/craft-ai/eslint-config-craft-ai",
+  "devDependencies": {
+    "eslint": "2.2.0"
+  }
+}
