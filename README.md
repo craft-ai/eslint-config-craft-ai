@@ -7,20 +7,20 @@ configuration for es5 and es6.
 
 ## Usage ##
 
-1. Install this package and every needed dependencies using
+- Install this package and every needed dependencies using
 ````sh
-npm install eslint-config-craft-ai --save-dev --save-exact
+npm install eslint eslint-config-craft-ai eslint-plugin-react babel-eslint --save-dev
 ````
-2. Create a `.eslintrc` file in your project's root with the following content
+- Create a `.eslintrc` file in your project's root with the following content
 ````json
 {
   "extends": "craft-ai"
 }
 ````
-3. Create a `.eslintignore` file to list pathes that won't need any linting (see
+- Create a `.eslintignore` file to list pathes that won't need any linting (see
 [this](http://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories)
 for further details)
-4. To easily run the lint add the following to your `package.json` file
+- To easily run the lint add the following to your `package.json` file
 ````json
 {
   "scripts": {
@@ -28,19 +28,19 @@ for further details)
   }
 }
 ````
-5. To make it easier to use, consider installing an [eslint plugin for your
+- To make it easier to use, consider installing an [eslint plugin for your
 favorite editor](http://eslint.org/docs/user-guide/integrations#editors).
 
 ## _(for craft ai devs)_ Releasing a new version ##
 
-1. Make sure the build of the master branch is passing
-2. Checkout the master branch locally
+- Make sure the build of the master branch is passing
+- Checkout the master branch locally
 ````sh
 git fetch
 git checkout master
 git reset --hard origin/master
 ````
-3. Bump the version and push
+- Bump the version and push
 ````sh
 npm version patch # or 'minor' or 'major'
 git push origin master
