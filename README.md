@@ -3,7 +3,7 @@
 This is [craft ai](https://craft.ai/)'s [ESLint](http://eslint.org/)
 configuration for es5 and es6.
 
-[![Version](https://img.shields.io/npm/v/eslint-config-craft-ai.svg?style=flat-square)](https://npmjs.org/package/eslint-config-craft-ai) [![Build](https://img.shields.io/travis/craft-ai/eslint-config-craft-ai/master.svg?style=flat-square)](https://travis-ci.org/craft-ai/eslint-config-craft-ai) [![License](https://img.shields.io/badge/license-BSD--3--Clause-42358A.svg?style=flat-square)](LICENSE) [![Dev Dependencies](https://img.shields.io/david/dev/craft-ai/eslint-config-craft-ai.svg?style=flat-square)](https://david-dm.org/craft-ai/eslint-config-craft-ai#info=devDependencies)
+[![Version](https://img.shields.io/npm/v/eslint-config-craft-ai.svg?style=flat-square)](https://npmjs.org/package/eslint-config-craft-ai) [![Build](https://img.shields.io/travis/craft-ai/eslint-config-craft-ai/master.svg?style=flat-square)](https://travis-ci.org/craft-ai/eslint-config-craft-ai) [![License](https://img.shields.io/badge/license-BSD--3--Clause-42358A.svg?style=flat-square)](LICENSE) [![Dependencies](https://img.shields.io/david/craft-ai/eslint-config-craft-ai.svg?style=flat-square)](https://david-dm.org/craft-ai/eslint-config-craft-ai) [![Dev Dependencies](https://img.shields.io/david/dev/craft-ai/eslint-config-craft-ai.svg?style=flat-square)](https://david-dm.org/craft-ai/eslint-config-craft-ai#info=devDependencies)
 
 ## Usage ##
 
