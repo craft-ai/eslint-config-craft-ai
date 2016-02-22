@@ -1,4 +1,8 @@
 module.exports = {
+  'parser': 'babel-eslint',
+  'plugins': [
+    'react'
+  ],
   'rules': {
     'indent': [
       2,
@@ -19,13 +23,16 @@ module.exports = {
     'no-unused-vars': [
       1,
       {
-        args: 'none'
+        'args': 'none',
+        'vars': 'all',
+        'varsIgnorePattern': 'React'
       }
     ],
     'default-case': 2
   },
   'ecmaFeatures': {
-    'modules': true
+    'modules': true,
+    'jsx': true
   },
   'env': {
     'es6': true,
