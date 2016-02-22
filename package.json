@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-craft-ai",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "craft ai's ESLint config.",
   "repository": "craft-ai/eslint-config-craft-ai",
   "keywords": [
