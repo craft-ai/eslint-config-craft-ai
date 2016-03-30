@@ -24,6 +24,22 @@ module.exports = {
       2,
       'never'
     ],
+    'object-curly-spacing': [
+      2,
+      'always'
+    ],
+    'array-bracket-spacing': [
+      2,
+      'never'
+    ],
+    'comma-spacing': [
+      2,
+      {
+        'before': false,
+        'after': true
+      }
+    ],
+    'keyword-spacing': 2,
     'no-unused-vars': [
       1,
       {
