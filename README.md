@@ -9,7 +9,7 @@ configuration for es5 and es6.
 
 - Install this package and every needed dependencies using
 ````sh
-npm install eslint eslint-config-craft-ai eslint-plugin-react babel-eslint --save-dev
+npm install eslint-config-craft-ai --save-dev
 ````
 - Create a `.eslintrc` file in your project's root with the following content
 ````json
@@ -24,10 +24,14 @@ for further details)
 ````json
 {
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fix_lint": "eslint --fix ."
   }
 }
 ````
+  You can now run `npm run lint` to check if the rules are properly applied, and
+  `npm run fix_lint` to let eslint fix what is fixable.
+
 - To make it easier to use, consider installing an [eslint plugin for your
 favorite editor](http://eslint.org/docs/user-guide/integrations#editors).
 
