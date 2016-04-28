@@ -24,10 +24,14 @@ for further details)
 ````json
 {
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fix_lint": "eslint --fix ."
   }
 }
 ````
+  You can now run `npm run lint` to check if the rules are properly applied, and
+  `npm run fix_lint` to let eslint fix what is fixable.
+
 - To make it easier to use, consider installing an [eslint plugin for your
 favorite editor](http://eslint.org/docs/user-guide/integrations#editors).
 
