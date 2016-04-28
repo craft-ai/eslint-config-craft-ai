@@ -9,7 +9,7 @@ configuration for es5 and es6.
 
 - Install this package and every needed dependencies using
 ````sh
-npm install eslint eslint-config-craft-ai eslint-plugin-react babel-eslint --save-dev
+npm install eslint-config-craft-ai --save-dev
 ````
 - Create a `.eslintrc` file in your project's root with the following content
 ````json
