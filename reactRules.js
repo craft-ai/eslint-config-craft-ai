@@ -5,5 +5,9 @@ module.exports = {
   ],
   'extends': [
     'plugin:react/recommended'
-  ]
+  ],
+  'rules': {
+    'plugin:react/jsx-no-bind': 1,
+    'react/prop-types': 1
+  }
 };
