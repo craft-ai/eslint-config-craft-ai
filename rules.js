@@ -1,7 +1,7 @@
 module.exports = {
   'parser': 'babel-eslint',
-  'plugins': [
-    'react'
+  'extends': [
+    'eslint:recommended'
   ],
   'rules': {
     'indent': [
@@ -53,8 +53,7 @@ module.exports = {
     'default-case': 2
   },
   'ecmaFeatures': {
-    'modules': true,
-    'jsx': true
+    'modules': true
   },
   'env': {
     'es6': true,
