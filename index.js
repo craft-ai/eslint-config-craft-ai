@@ -1,6 +1,1 @@
-module.exports = {
-  extends: [
-    'craft-ai/rules',
-    'craft-ai/reactRules'
-  ]
-};
+module.exports = require('./base.babel');
