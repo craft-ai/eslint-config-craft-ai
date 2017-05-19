@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/craft-ai/eslint-config-craft-ai",
   "devDependencies": {
-    "babel-eslint": "7.2.1",
+    "babel-eslint": "7.2.3",
     "eslint": "3.19.0",
-    "eslint-plugin-react": "6.10.3"
+    "eslint-plugin-react": "7.0.1"
   },
   "peerDependencies": {
     "babel-eslint": "^6.0.0 || ^7.0.0",
