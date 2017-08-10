@@ -33,7 +33,8 @@
   "peerDependencies": {
     "babel-eslint": "^6.0.0 || ^7.0.0",
     "eslint": "^2.0.0 || ^3.0.0",
-    "eslint-plugin-react": "^6.10.0 || ^7.0.0"
+    "eslint-plugin-react": "^6.10.0 || ^7.0.0",
+    "eslint-plugin-wyze": "^3.0.0"
   },
   "engines": {
     "node": ">=0.10"
