@@ -38,6 +38,6 @@
     "eslint-plugin-react": "^6.10.0 || ^7.0.0"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=0.12"
   }
 }

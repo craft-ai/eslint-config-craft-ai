@@ -1,11 +1,14 @@
 language: node_js
 node_js:
-- '4.1'
+- '6'
+- '4'
+- '0.12'
 deploy:
   provider: npm
   email: ops@craft.ai
   api_key:
     secure: L93Yu9ibhjR3gLKmT4QpZoW7Pv+9OK81knamGPCqoCI1yf+uqouUpknwri668m4i9310mWiS0Mw/Rhca+92Ch89m1JOaBcFJpRyalJmtxtwitysxPx6Y5wGLVz0ruzNuw2ofcrtcvhM4meEUNGPsId4L1/PqwR/4IBc9qRdXNd5U0nhR7QkvyB0qAfjuPwVUAM95T3691Q/r/G3TbWbh54gRMwydtL4y8lPSoJWc+hIT4aVreKv8015yVwll1EQfIdF3CkBhAYwKuZXTIhF+s/glpwo0qMDvzGtCw1gc3fWHkU3aRd6SWWt4EZBY+/BO+4Z/fegyxxIUebI0PcnZoQ6pk+7mTOJvNzuZ6TWDrTOGj6cHeimxY8Afg8tUjEI2845WHYfPs8NysOcWX0sNYKwIgOYWF3vJdkhOzMDXlAPcMNoew3dyBoNXhe3Ki1hmPrulW2cGtnU/MB+8T8KjGTg4HjDOHnI5EhdbDFp3DvExC0kH4YbtQeWRV8yi4QtiuYUgn2h/PC29miVd6bXN7biw03uOREKGMibP0rOWujWwZME7Z8dcILn78wBUr0wCo7KmY4YQBEy+0EatXjdrI7AgzrR0XIU+vrFuexzVw2vc2fnNWM0ij7uBPUJzc+/ywi9erWP+7jk8Ig45fKDSDKAhjtme31AfbHDNJnolMgk=
   on:
+    node: '6'
     tags: true
     repo: craft-ai/eslint-config-craft-ai
