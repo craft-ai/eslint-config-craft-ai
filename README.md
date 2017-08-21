@@ -8,12 +8,15 @@ configuration for es5 and es6.
 
 ## Usage ##
 
+### Basics ###
+
 - Install this package and every needed dependencies using
 ```sh
-npm install --save-dev eslint eslint-config-craft-ai
+npm install --save-dev eslint eslint-config-craft-ai \
+                       eslint-plugin-wyze \ # If you have node >= 4
+                       babel-eslint \ # Optional, if you are using Babel in your project
+                       eslint-plugin-react \ # Optional, if your using React in your project
 ```
-
-  *Our default export uses [Babel](https://github.com/babel/babel-eslint) as a parser. You might need to add `babel-eslint` to the end of this command if you are using Babel or use another configuration in the next step.*
 
 - Create a `.eslintrc` file in your project's root with the following content
 ```json
