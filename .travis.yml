@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - '8'
-  - '6'
+- '8'
+- '6'
 deploy:
   provider: npm
   email: ops@craft.ai
   api_key:
-    secure: L93Yu9ibhjR3gLKmT4QpZoW7Pv+9OK81knamGPCqoCI1yf+uqouUpknwri668m4i9310mWiS0Mw/Rhca+92Ch89m1JOaBcFJpRyalJmtxtwitysxPx6Y5wGLVz0ruzNuw2ofcrtcvhM4meEUNGPsId4L1/PqwR/4IBc9qRdXNd5U0nhR7QkvyB0qAfjuPwVUAM95T3691Q/r/G3TbWbh54gRMwydtL4y8lPSoJWc+hIT4aVreKv8015yVwll1EQfIdF3CkBhAYwKuZXTIhF+s/glpwo0qMDvzGtCw1gc3fWHkU3aRd6SWWt4EZBY+/BO+4Z/fegyxxIUebI0PcnZoQ6pk+7mTOJvNzuZ6TWDrTOGj6cHeimxY8Afg8tUjEI2845WHYfPs8NysOcWX0sNYKwIgOYWF3vJdkhOzMDXlAPcMNoew3dyBoNXhe3Ki1hmPrulW2cGtnU/MB+8T8KjGTg4HjDOHnI5EhdbDFp3DvExC0kH4YbtQeWRV8yi4QtiuYUgn2h/PC29miVd6bXN7biw03uOREKGMibP0rOWujWwZME7Z8dcILn78wBUr0wCo7KmY4YQBEy+0EatXjdrI7AgzrR0XIU+vrFuexzVw2vc2fnNWM0ij7uBPUJzc+/ywi9erWP+7jk8Ig45fKDSDKAhjtme31AfbHDNJnolMgk=
+    secure: eZxeMooH40EmOyvZDVib6xyS11+TWB1oTVBfVtFscZkIS0w8GD6SAax+i/XHQpTZ1uPpRrlGy04vGk79t0xJP8nj4O0p9T6uZgfFhG28Y+E5rECOYlprEqq2O/qWgNJ8wMs10cPrqAoE4OPe1N7IW5+xmmmivFH8pK9tRdDFfBS3J/8XvNGhhzDQ1kT8Htki4lBMMFmFyS9P9hdKq0WbSnQSFWrD0wthyaqO/vorDCIBsYqCIlHpO6KWgrnBEoQPzXONNcfgJEy5PmqG9t1si1QIyjl+61aluTBPMC/ufvNit9Fggn87tLo5f3CHMkTcUBMfI5dDi6bgMDZyRQQXKvNCj9cAlYFzf0rG+t8lttLIyQbMFrV0Eh7/BtQF50/r8uju2U8Yn8rH+lPgi+eLisJSuNRIpKXRoUFJMabhxMYZHAmJsfrFyjxoTHZRjS0YzCj2eO8OEvBKD1amIl24DHyC5NNs/XQfpn5qL9n04KtKVdZXCFGOaqDtc8aRZxwk7R9Bhc+xtB1fiU6YW0LRrchZnRYeLl9EteyQaXCRea9/9E+EIX/IY3S/PHF30uRBpoWuTcdJ+k9cGHaN+OYkOkGZ4kaFLsWZNNsjFovLwJF/H/LMkaDVtFUiHUYfyc7i+yT3/3CynvrsdWGcJ1ubobgA0wSDFgOwN0bSxy5vjhI=
   on:
     node: '6'
     tags: true
