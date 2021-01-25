@@ -1,0 +1,20 @@
+name: publish eslint config
+on: [push]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+    steps:
+      - name: Checkout scm
+        uses: actions/checkout@v2
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+          registry-url: 'https://registry.npmjs.com'
+      - name: Install packages
+        run: npm install
+      - name: Packaging & release
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.CRAFT_AI_NPM_TOKEN }}
